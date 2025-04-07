@@ -46,6 +46,28 @@
         p {
             margin: 9.5px 0; /* Reduced from 10px to 9.5px */
         }
+
+        /* Table styling */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50; /* Green background for headers */
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Alternate row colors */
+        }
     </style>
 </head>
 <body>
@@ -53,8 +75,32 @@
 <header>
     <h1>Cup Match Day 2025</h1>
 </header>
-    
+
+<!-- Table for Match Results -->
+<table>
+    <thead>
+        <tr>
+            <th>Match</th>
+            <th>Team</th>
+            <th>Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Team A</td>
+            <td>Win</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Team B</td>
+            <td>Loss</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+</table>
+
 <p><a href="https://staplefordccil.github.io/home/" class="button-link">Home Page</a></p>
-    
+
 </body>
 </html>
